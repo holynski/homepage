@@ -42,9 +42,7 @@ q:before, q:after {
   content: '';
   content: none; }
 
-table {
-  border-collapse: separate;
-  border-spacing: 5px; }
+table { }
 
 tr {
   padding: 5px;
