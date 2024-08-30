@@ -50,16 +50,13 @@
                               <center>
                                 Research&nbsp;Scientist, Google&nbsp;DeepMind<br>
                                 Postdoctoral&nbsp;Scholar, UC&nbsp;Berkeley&nbsp;(BAIR)<br><br>
-                              <a href="mailto:aleksander@holynski.org">Email</a> / <a href="http://scholar.google.com/citations?user=ypBMJMgAAAAJ">Google Scholar</a> / <a href="cv.pdf">CV</a> <br> <br></center>
+                              <a href="mailto:aleksander@holynski.org">Email</a> / <a href="http://scholar.google.com/citations?user=ypBMJMgAAAAJ">Google Scholar</a> / <a href="holynski_bio.txt">Bio</a> / <a href="cv.pdf">CV</a> <br> <br></center>
                             </div>
                           </td>
                           <td width="50%" id="rightpic" valign="middle" align="center" style="width: 100%;  text-align: center">
 		<div width="100%" style="vertical-align: middle; text-align: center; max-width: 216px; display: inline-block" align="center">
                 <div class="one" width="100%" style="text-align: center" align="center">
-                <div class="fadeImage" id="profile" width=100% align="center" style="opacity: 0; width: 100%; text-align: center;">
-                <img id="staticprofile" class="img-animate" src="images/profile.gif" width=100% align="center"  alt="" style="vertical-align: middle; width: 100%; text-align: center">
-                </div>
-                <img class="img-animate" src="images/profile_static.gif"  width=100% align="center" alt="" style="vertical-align: middle; text-align: center">
+                <a href="images/holynski_picture.png"><video id="staticprofile" class="img-animate" src="images/moving.mp4" width=100% align="center"  alt="" style="vertical-align: middle; width: 100%; text-align: center" muted></a>
                 </div>
 </div>
 
@@ -70,9 +67,10 @@
                   return;
                 }
                 running = true;
-                document.getElementById('profile').style.opacity = "1";
-                await new Promise(r => setTimeout(r, 2000));    
-                document.getElementById('profile').style.opacity = "0";
+		document.getElementById('staticprofile').play()
+                //await new Promise(r => setTimeout(r, 4000));    
+		//document.getElementById('staticprofile').pause()
+                await new Promise(r => setTimeout(r, 5000));    
                 running = false;
               }
 	      
@@ -91,12 +89,7 @@
 
           <h1 align="left">About me</h1>
         <section class="sample" id="camus" align="center">	
-	<p> I'm a research scientist at <a href="https://deepmind.google/">Google DeepMind</a> and a postdoctoral scholar at <a href="https://bair.berkeley.edu/">Berkeley AI Research</a>, working with <a href="https://people.eecs.berkeley.edu/~efros/">Alyosha Efros</a> and <a href="https://people.eecs.berkeley.edu/~kanazawa/">Angjoo Kanazawa</a>. Previously, I was PhD student at the University of Washington, advised by <a href="http://homes.cs.washington.edu/~seitz">Steve Seitz</a>, <a href="http://homes.cs.washington.edu/~curless">Brian Curless</a>, and <a href="http://szeliski.org">Rick Szeliski</a>.
-          <!--Most of my research is related to 3D capture and reconstruction: topics like <em>structure-from-motion</em>, <em>multi-view stereo</em>, and <em>image-based rendering</em>, as well as some applications in augmented & virtual reality.<br><br>
-          During the PhD, I was fortunate enough to spend three great internships at Google and Facebook. 
--->
-
-Before the PhD, I received my B.S. at the University of Illinois at Urbana-Champaign. I'm originally from San Juan, Puerto Rico.
+	<p> I'm a research scientist at <a href="https://deepmind.google/">Google DeepMind</a> and a postdoctoral scholar at <a href="https://bair.berkeley.edu/">Berkeley AI Research</a>, working with <a href="https://people.eecs.berkeley.edu/~efros/">Alyosha Efros</a> and <a href="https://people.eecs.berkeley.edu/~kanazawa/">Angjoo Kanazawa</a>. I did my PhD at the University of Washington, advised by <a href="http://homes.cs.washington.edu/~seitz">Steve Seitz</a>, <a href="http://homes.cs.washington.edu/~curless">Brian Curless</a>, and <a href="http://szeliski.org">Rick Szeliski</a>. I received my B.S. at the University of Illinois at Urbana-Champaign. I'm originally from San Juan, Puerto Rico.
                     </p>
         </section>
           <h1 align="left">Publications</h1>
