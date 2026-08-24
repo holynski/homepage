@@ -87,13 +87,196 @@
 
           <h1 align="left">About me</h1>
         <section class="sample" id="camus" align="center">	
-	<p> I'm a research scientist at <a href="https://deepmind.google/">Google DeepMind</a> and a professor at <a href="https://www.cs.columbia.edu/">Columbia University</a>. Previously, I was a postdoctoral scholar at <a href="https://bair.berkeley.edu/">UC Berkeley (BAIR)</a> working with <a href="https://people.eecs.berkeley.edu/~efros/">Alyosha Efros</a> and <a href="https://people.eecs.berkeley.edu/~kanazawa/">Angjoo Kanazawa</a>. I did my PhD at the University of Washington, advised by <a href="http://homes.cs.washington.edu/~seitz">Steve Seitz</a>, <a href="http://homes.cs.washington.edu/~curless">Brian Curless</a>, and <a href="http://szeliski.org">Rick Szeliski</a> and received my B.S. at the University of Illinois at Urbana-Champaign. I'm originally from San Juan, Puerto Rico.
+	<p> I'm a professor at <a href="https://www.cs.columbia.edu/">Columbia University</a>, and I lead a team at <a href="https://deepmind.google/">Google DeepMind</a> working on generative 3D and world models. Previously, I was a postdoctoral scholar at <a href="https://bair.berkeley.edu/">UC Berkeley (BAIR)</a> with <a href="https://people.eecs.berkeley.edu/~efros/">Alyosha Efros</a> and <a href="https://people.eecs.berkeley.edu/~kanazawa/">Angjoo Kanazawa</a>, and did my PhD at the University of Washington with <a href="http://homes.cs.washington.edu/~seitz">Steve Seitz</a>, <a href="http://homes.cs.washington.edu/~curless">Brian Curless</a>, and <a href="http://szeliski.org">Rick Szeliski</a>.
                     </p>
         </section>
-          <h1 align="left">Projects</h1>
+          <div align="left" style="text-align: left; padding: 4% 0 2.2% 0; font: 400 10%/155% &quot;pt serif&quot;; color: #222;"><a class="filt" data-g="all" onclick="showGroup('all')">All Projects</a><a class="filt active" data-g="rep" onclick="showGroup('rep')">Representative</a><a class="filt" data-g="gen3d" onclick="showGroup('gen3d')">Generative 3D</a><a class="filt" data-g="video" onclick="showGroup('video')">Video &amp; World Models</a><a class="filt" data-g="recon" onclick="showGroup('recon')">Reconstruction</a><a class="filt" data-g="imagegen" onclick="showGroup('imagegen')">Image Generation</a><a class="filt" data-g="products" onclick="showGroup('products')">Products</a><a class="filt people" data-g="students" onclick="showGroup('students')">Students</a></div>
+
         <section class="sample" id="camus" align="center">
-          <table width="100%">
-		    <tr  onmouseout="hideveo3()" onmouseover="hoverveo3()">
+          <table width="100%" id="projects">
+	  <tr data-group="students">
+              <td width="67%" align="right" style="vertical-align: middle;">
+                <p style="vertical-align: top;"><center>
+                <a href="https://ryantabrizi.com/" style="vertical-align: inherit; font-size: 100%;">Ryan Tabrizi</a><br>
+		<div style="font-size: 75%">
+PhD student, Columbia University<br>
+              Previously UC Berkeley<br><br></div>
+              <a href="https://ryantabrizi.com/" style="font-size: 80%">Homepage</a> / <a href="https://scholar.google.com/citations?hl=en&amp;user=zgqkip0AAAAJ" style="font-size: 80%">Scholar</a> </center>
+</p>
+              </td>
+              <td width="33%" height="100%" align="left">
+		<div width="100%" style="vertical-align: middle" align="center">
+                <img class="img-animate studentpic" data-src="images/ryan_tabrizi.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+</div>
+              </td>
+        </tr> 
+
+	  <tr data-group="students">
+              <td width="67%" align="right" style="vertical-align: middle;">
+                <p style="vertical-align: top;"><center>
+                <a href="https://kuanhenglin.github.io/" style="vertical-align: inherit; font-size: 100%;">Jordan Lin</a><br>
+		<div style="font-size: 75%">
+PhD student, Columbia University<br>
+              Co-advised with Micah Goldblum &middot; Previously UCLA<br><br></div>
+              <a href="https://kuanhenglin.github.io/" style="font-size: 80%">Homepage</a> / <a href="https://github.com/kuanhenglin" style="font-size: 80%">GitHub</a> </center>
+</p>
+              </td>
+              <td width="33%" height="100%" align="left">
+		<div width="100%" style="vertical-align: middle" align="center">
+                <img class="img-animate studentpic" data-src="images/jordan_lin.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+</div>
+              </td>
+        </tr> 
+
+
+	  	  <tr  onmouseout="hideomni()" onmouseover="hoveromni()" data-group="rep products video">
+              <td width="67%" align="right" style="vertical-align: middle;">
+                <p style="vertical-align: top;"><center>
+                <a href="https://deepmind.google/models/gemini-omni/" style="vertical-align: inherit; font-size: 100%;">Gemini Omni</a><br>
+		<div style="font-size: 75%">
+The Gemini Omni team and collaborators at Google DeepMind<br>
+              2026<br><br></div>
+              <a href="https://deepmind.google/models/gemini-omni/" style="font-size: 80%">Web</a> / <a href="https://deepmind.google/models/model-cards/gemini-omni-flash/" style="font-size: 80%">Model card</a> </center>
+</p>
+              </td>
+              <td width="33%" height="100%" align="left">
+		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
+                <div class="fi2" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
+                <video disableRemotePlayback data-src="images/gemini_omni.mp4" id="thevideoomni" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+</div>
+</div>
+              </td>
+
+          <script type="text/javascript">
+	      function hoveromni() {
+		document.getElementById('thevideoomni').play()
+              }
+	      function hideomni() {
+		document.getElementById('thevideoomni').pause()
+              }
+          </script>
+        </tr> 
+              <tr  onmouseout="hidegenie3()" onmouseover="hovergenie3()" data-group="rep products video">
+              <td width="67%" align="right" style="vertical-align: middle;">
+                <p style="vertical-align: top;"><center>
+                <a href="https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/" style="vertical-align: inherit; font-size: 100%;">Genie 3: A New Frontier for World Models</a><br>
+		<div style="font-size: 75%">
+The Genie team and collaborators at Google DeepMind<br>
+              2025<br><br></div>
+              <a href="https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/" style="font-size: 80%">Web</a> </center>
+</p>
+              </td>
+              <td width="33%" height="100%" align="left">
+		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
+                <div class="fi2" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
+                <video disableRemotePlayback data-src="images/genie3.mp4" id="thevideogenie3" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+</div>
+</div>
+              </td>
+
+          <script type="text/javascript">
+	      function hovergenie3() {
+		document.getElementById('thevideogenie3').play()
+              }
+	      function hidegenie3() {
+		document.getElementById('thevideogenie3').pause()
+              }
+          </script>
+        </tr> 
+		    	  <tr  onmouseout="hidezipmap()" onmouseover="hoverzipmap()" data-group="rep recon">
+              <td width="67%" align="right" style="vertical-align: middle;">
+                <p style="vertical-align: top;"><center>
+                <a href="https://arxiv.org/pdf/2603.04385" style="vertical-align: inherit; font-size: 99%;">ZipMap: Linear-Time Stateful 3D Reconstruction via Test-Time Training</a><br>
+		<div style="font-size: 75%">
+Haian Jin, Rundi Wu, Tianyuan Zhang, Ruiqi Gao,<br>Jonathan T. Barron, Noah Snavely, <strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Aleksander Holynski</strong><br>
+              CVPR 2026<br><br></div>
+              <a href="https://arxiv.org/pdf/2603.04385" style="font-size: 80%">PDF</a> / <a href="https://arxiv.org/abs/2603.04385" style="font-size: 80%">arXiv</a> / <a href="https://haian-jin.github.io/ZipMap/" style="font-size: 80%">Webpage</a> / <a href="https://github.com/Haian-Jin/ZipMap" style="font-size: 80%">Code</a> </center>
+</p>
+              </td>
+              <td width="33%" height="100%" align="left">
+		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
+                <div class="fi2" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
+                <video disableRemotePlayback data-src="images/zipmap.mp4" id="thevideozipmap" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+</div>
+</div>
+              </td>
+
+          <script type="text/javascript">
+	      function hoverzipmap() {
+		document.getElementById('thevideozipmap').play()
+              }
+	      function hidezipmap() {
+		document.getElementById('thevideozipmap').pause()
+              }
+          </script>
+        </tr> 
+
+
+	  <tr  onmouseout="smallvlic()" onmouseover="bigvlic()" data-group="imagegen">
+              <td width="67%" align="right" style="vertical-align: middle;">
+                <p style="vertical-align: top;"><center>
+                <a href="https://arxiv.org/pdf/2512.15701" style="vertical-align: inherit; font-size: 97%;">VLIC: Vision-Language Models as Perceptual Judges for Human-Aligned Image Compression</a><br>
+		<div style="font-size: 75%">
+Kyle Sargent, Ruiqi Gao, Philipp Henzler, Charles Herrmann,<br><strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Aleksander Holynski</strong>, Li Fei-Fei, Jiajun Wu, Jason Zhang<br>
+              CVPR 2026<br><br></div>
+              <a href="https://arxiv.org/pdf/2512.15701" style="font-size: 80%">PDF</a> / <a href="https://arxiv.org/abs/2512.15701" style="font-size: 80%">arXiv</a> / <a href="https://kylesargent.github.io/vlic" style="font-size: 80%">Webpage</a> </center>
+</p>
+              </td>
+              <td width="33%" height="100%" align="left">
+		<div width="100%" style="vertical-align: middle" align="center">
+                <div class="one" width="100%">
+                <div class="fadeImage" id="vlic" style="opacity: 0; width: 100%;">
+                <img class="img-animate" data-src="images/vlic_b.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
+                </div>
+                <img class="img-animate" data-src="images/vlic_a.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+                </div>
+</div>
+              </td>
+
+          <script type="text/javascript">
+              function bigvlic() {
+                document.getElementById('vlic').style.opacity = "1";
+              }
+              function smallvlic() {
+                document.getElementById('vlic').style.opacity = "0";
+              }
+              smallvlic()
+          </script>
+        </tr> 
+
+
+	  <tr  onmouseout="hideecho()" onmouseover="hoverecho()" data-group="imagegen">
+              <td width="67%" align="right" style="vertical-align: middle;">
+                <p style="vertical-align: top;"><center>
+                <a href="https://arxiv.org/pdf/2510.15021" style="vertical-align: inherit; font-size: 99%;">Constantly Improving Image Models Need Constantly Improving Benchmarks</a><br>
+		<div style="font-size: 75%">
+Jiaxin Ge, Grace Luo, Heekyung Lee, Nishant Malpani, Long Lian,<br>XuDong Wang, <strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Aleksander Holynski</strong>, Trevor Darrell, Sewon Min, David M. Chan<br>
+              ICLR 2026<br><br></div>
+              <a href="https://arxiv.org/pdf/2510.15021" style="font-size: 80%">PDF</a> / <a href="https://arxiv.org/abs/2510.15021" style="font-size: 80%">arXiv</a> / <a href="https://echo-bench.github.io/" style="font-size: 80%">Webpage</a> </center>
+</p>
+              </td>
+              <td width="33%" height="100%" align="left">
+		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
+                <div class="fi2" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
+                <video disableRemotePlayback data-src="images/echo.mp4" id="thevideoecho" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+</div>
+</div>
+              </td>
+
+          <script type="text/javascript">
+	      function hoverecho() {
+		document.getElementById('thevideoecho').play()
+              }
+	      function hideecho() {
+		document.getElementById('thevideoecho').pause()
+              }
+          </script>
+        </tr> 
+
+
+
+
+              <tr  onmouseout="hideveo3()" onmouseover="hoverveo3()" data-group="rep products video">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://deepmind.google/technologies/veo/" style="vertical-align: inherit; font-size: 100%;">Veo 3</a><br>
@@ -105,7 +288,7 @@ The Veo team and collaborators at Google DeepMind<br><br><br></div>
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/veo3.mp4" id="thevideoveo3" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/veo3.mp4" id="thevideoveo3" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -120,7 +303,68 @@ The Veo team and collaborators at Google DeepMind<br><br><br></div>
               }
           </script>
         </tr> 
-	  <tr  onmouseout="hidedual()" onmouseover="hoverdual()">
+	  	  <tr  onmouseout="smallnusd()" onmouseover="bignusd()" data-group="gen3d imagegen">
+              <td width="67%" align="right" style="vertical-align: middle;">
+                <p style="vertical-align: top;"><center>
+                <a href="https://arxiv.org/pdf/2510.23956" style="vertical-align: inherit; font-size: 99%;">Neural USD: An Object-Centric Framework for Iterative Editing and Control</a><br>
+		<div style="font-size: 75%">
+Alejandro Escontrela, Shrinu Kushagra, Sjoerd van Steenkiste,<br>Yulia Rubanova, <strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Aleksander Holynski</strong>, Kelsey Allen, Kevin Murphy, Thomas Kipf<br>
+              arXiv 2025<br><br></div>
+              <a href="https://arxiv.org/pdf/2510.23956" style="font-size: 80%">PDF</a> / <a href="https://arxiv.org/abs/2510.23956" style="font-size: 80%">arXiv</a> / <a href="https://escontrela.me/neural_usd/" style="font-size: 80%">Webpage</a> </center>
+</p>
+              </td>
+              <td width="33%" height="100%" align="left">
+		<div width="100%" style="vertical-align: middle" align="center">
+                <div class="one" width="100%">
+                <div class="fadeImage" id="nusd" style="opacity: 0; width: 100%;">
+                <img class="img-animate" data-src="images/neuralusd_b.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
+                </div>
+                <img class="img-animate" data-src="images/neuralusd_a.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+                </div>
+</div>
+              </td>
+
+          <script type="text/javascript">
+              function bignusd() {
+                document.getElementById('nusd').style.opacity = "1";
+              }
+              function smallnusd() {
+                document.getElementById('nusd').style.opacity = "0";
+              }
+              smallnusd()
+          </script>
+        </tr> 
+
+
+	  <tr  onmouseout="hideanimals()" onmouseover="hoveranimals()" data-group="video">
+              <td width="67%" align="right" style="vertical-align: middle;">
+                <p style="vertical-align: top;"><center>
+                <a href="https://arxiv.org/pdf/2505.23738" style="vertical-align: inherit; font-size: 100%;">How Animals Dance (When You're Not Looking)</a><br>
+		<div style="font-size: 75%">
+Xiaojuan Wang, <strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Aleksander Holynski</strong>, Brian Curless,<br>Ira Kemelmacher, Steve Seitz<br>
+              arXiv 2025<br><br></div>
+              <a href="https://arxiv.org/pdf/2505.23738" style="font-size: 80%">PDF</a> / <a href="https://arxiv.org/abs/2505.23738" style="font-size: 80%">arXiv</a> / <a href="https://how-animals-dance.github.io/" style="font-size: 80%">Webpage</a> </center>
+</p>
+              </td>
+              <td width="33%" height="100%" align="left">
+		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
+                <div class="fi2" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
+                <video disableRemotePlayback data-src="images/animals_dance.mp4" id="thevideoanimals" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+</div>
+</div>
+              </td>
+
+          <script type="text/javascript">
+	      function hoveranimals() {
+		document.getElementById('thevideoanimals').play()
+              }
+	      function hideanimals() {
+		document.getElementById('thevideoanimals').pause()
+              }
+          </script>
+        </tr> 
+
+              <tr  onmouseout="hidedual()" onmouseover="hoverdual()" data-group="rep imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://dual-process.github.io/" style="vertical-align: inherit; font-size: 100%;">Dual-Process Image Generation</a><br>
@@ -133,7 +377,7 @@ Grace Luo, Jonathan Granskog, <strong style="font-weight: 1000;     text-shadow:
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/dual.mp4" id="thevideodual" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/dual.mp4" id="thevideodual" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -149,7 +393,7 @@ Grace Luo, Jonathan Granskog, <strong style="font-weight: 1000;     text-shadow:
           </script>
         </tr> 
 
-	  <tr  onmouseout="hidebolt()" onmouseover="hoverbolt()">
+	  <tr  onmouseout="hidebolt()" onmouseover="hoverbolt()" data-group="gen3d">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://szymanowiczs.github.io/bolt3d" style="vertical-align: inherit; font-size: 100%;">Bolt3D: Generating 3D Scenes in Seconds</a><br>
@@ -162,7 +406,7 @@ Stanislaw Szymanowicz, Jason Y. Zhang, Pratul Srinivasan, Ruiqi Gao, Arthur Brus
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/bolt3d.mp4" id="thevideobolt" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/bolt3d.mp4" id="thevideobolt" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -178,7 +422,7 @@ Stanislaw Szymanowicz, Jason Y. Zhang, Pratul Srinivasan, Ruiqi Gao, Arthur Brus
           </script>
         </tr> 
 
-		    <tr  onmouseout="hideveo2()" onmouseover="hoverveo2()">
+		    <tr  onmouseout="hideveo2()" onmouseover="hoverveo2()" data-group="products video">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://deepmind.google/technologies/veo/veo-2/" style="vertical-align: inherit; font-size: 100%;">Veo 2</a><br>
@@ -190,7 +434,7 @@ The Veo team and collaborators at Google DeepMind<br><br><br></div>
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/sloth.mp4" id="thevideoveo2" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/sloth.mp4" id="thevideoveo2" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -207,7 +451,35 @@ The Veo team and collaborators at Google DeepMind<br><br><br></div>
         </tr> 
 		  
 
-	  <tr  onmouseout="hidecut3r()" onmouseover="hovercut3r()">
+	  	  <tr  onmouseout="hidespin360()" onmouseover="hoverspin360()" data-group="products gen3d">
+              <td width="67%" align="right" style="vertical-align: middle;">
+                <p style="vertical-align: top;"><center>
+                <a href="https://research.google/blog/bringing-3d-shoppable-products-online-with-generative-ai/" style="vertical-align: inherit; font-size: 100%;">360&deg; Product Spins on Google Search</a><br>
+		<div style="font-size: 75%">
+Google Research, Google Shopping, and collaborators<br>
+              2024<br><br></div>
+              <a href="https://research.google/blog/bringing-3d-shoppable-products-online-with-generative-ai/" style="font-size: 80%">Web</a> </center>
+</p>
+              </td>
+              <td width="33%" height="100%" align="left">
+		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
+                <div class="fi2" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
+                <video disableRemotePlayback data-src="images/spin360.mp4" id="thevideospin360" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+</div>
+</div>
+              </td>
+
+          <script type="text/javascript">
+	      function hoverspin360() {
+		document.getElementById('thevideospin360').play()
+              }
+	      function hidespin360() {
+		document.getElementById('thevideospin360').pause()
+              }
+          </script>
+        </tr> 
+
+              <tr  onmouseout="hidecut3r()" onmouseover="hovercut3r()" data-group="rep recon">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://cut3r.github.io/" style="vertical-align: inherit; font-size: 100%;">Continuous 3D Perception Model with Persistent State</a><br>
@@ -220,7 +492,7 @@ Qianqian Wang, Yifei Zhang, <strong style="font-weight: 1000;     text-shadow: 0
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/cut3r2.mp4" id="thevideocut3r" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/cut3r2.mp4" id="thevideocut3r" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -236,7 +508,7 @@ Qianqian Wang, Yifei Zhang, <strong style="font-weight: 1000;     text-shadow: 0
           </script>
         </tr> 
 
-		  <tr  onmouseout="hidestereo()" onmouseover="hoverstereo()">
+		  <tr  onmouseout="hidestereo()" onmouseover="hoverstereo()" data-group="rep recon video">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://stereo4d.github.io/" style="vertical-align: inherit; font-size: 100%;">Stereo4D: Learning How Things Move in 3D from <br>Internet Stereo Videos</a><br>
@@ -249,7 +521,7 @@ Linyi Jin, Richard Tucker, Zhengqi Li, David Fouhey, Noah Snavely*, <strong styl
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/stereo4d_compressed.mp4" id="thevideostereo" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/stereo4d_compressed.mp4" id="thevideostereo" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -266,7 +538,7 @@ Linyi Jin, Richard Tucker, Zhengqi Li, David Fouhey, Noah Snavely*, <strong styl
         </tr> 
 
 
-		  <tr  onmouseout="hideVideo43()" onmouseover="hoverVideo43()">
+		  <tr  onmouseout="hideVideo43()" onmouseover="hoverVideo43()" data-group="rep gen3d video">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://cat-4d.github.io/" style="vertical-align: inherit; font-size: 100%;">CAT4D: Create Anything in 4D with Multi-View<br>Video Diffusion Models</a><br>
@@ -279,7 +551,7 @@ Rundi Wu, Ruiqi Gao, Ben Poole, Alex Trevithick,<br>Changxi Zheng, Jon Barron, <
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/cat4d_thumb.mp4" id="thevideo43" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/cat4d_thumb.mp4" id="thevideo43" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -296,7 +568,7 @@ Rundi Wu, Ruiqi Gao, Ben Poole, Alex Trevithick,<br>Changxi Zheng, Jon Barron, <
         </tr> 
 
 
-		  <tr  onmouseout="hidemega()" onmouseover="hovermega()">
+		  <tr  onmouseout="hidemega()" onmouseover="hovermega()" data-group="rep recon">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://mega-sam.github.io/" style="vertical-align: inherit; font-size: 100%;">MegaSaM: Accurate, Fast and Robust Structure and Motion from Casual Dynamic Videos</a><br>
@@ -310,7 +582,7 @@ Zhengqi Li, Richard Tucker, Forrester Cole, Qianqian Wang, Linyi Jin, Vickie Ye,
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/megasam.mp4" id="thevideomega" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/megasam.mp4" id="thevideomega" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -330,7 +602,7 @@ Zhengqi Li, Richard Tucker, Forrester Cole, Qianqian Wang, Linyi Jin, Vickie Ye,
 
 
 
-	  <tr  onmouseout="small_map()" onmouseover="big_map()">
+	  <tr  onmouseout="small_map()" onmouseover="big_map()" data-group="imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://cfeng16.github.io/gps-gen/" style="vertical-align: inherit; font-size: 99%;">GPS as a Control Signal for Image Generation</a><br>
@@ -346,9 +618,9 @@ Chao Feng, Ziyang Chen, <strong style="font-weight: 1000; text-shadow: 0.1px 0
 		<div width="100%" style="vertical-align: middle" align="center">
                 <div class="one" width="100%">
                 <div class="fadeImage" id="gps_map" style="opacity: 0; width: 100%;">
-                <img class="img-animate" src="images/superman.png" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
+                <img class="img-animate" data-src="images/superman.png" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
                 </div>
-                <img class="img-animate" src="images/nyc.jpeg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+                <img class="img-animate" data-src="images/nyc.jpeg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
                 </div>
 </div>
               </td>
@@ -371,20 +643,20 @@ Chao Feng, Ziyang Chen, <strong style="font-weight: 1000; text-shadow: 0.1px 0
 
 
 
-		  <tr  onmouseout="hideVideosim()" onmouseover="hoverVideosim()">
+		  <tr  onmouseout="hideVideosim()" onmouseover="hoverVideosim()" data-group="gen3d">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://alextrevithick.github.io/simvs/" style="vertical-align: inherit; font-size: 100%;">SimVS: Simulating World Inconsistencies for Robust View Synthesis</a><br>
 		<div style="font-size: 75%">
 Alex Trevithick, Roni Paiss, Philipp Henzler, Dor Verbin, Rundi Wu, Hadi Alzayer, Ruiqi Gao, Ben Poole, Jon Barron, <strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Aleksander Holynski</strong>, Ravi Ramamoorthi, Pratul Srinivasan<br>
               CVPR 2025<br><br></div>
-              <a href="https://arxiv.org/pdf/2411.18613.pdf" style="font-size: 80%">PDF</a> / <a href="https://arxiv.org/abs/2411.18613" style="font-size: 80%">arXiv</a> </center>
+              <a href="https://arxiv.org/pdf/2412.07696" style="font-size: 80%">PDF</a> / <a href="https://arxiv.org/abs/2412.07696" style="font-size: 80%">arXiv</a> </center>
 </p>
               </td>
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/simvs.mp4" id="thevideosim" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/simvs.mp4" id="thevideosim" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -405,20 +677,20 @@ Alex Trevithick, Roni Paiss, Philipp Henzler, Dor Verbin, Rundi Wu, Hadi Alzayer
 
 
 
-		  <tr  onmouseout="hideVideo45()" onmouseover="hoverVideo45()">
+		  <tr  onmouseout="hideVideo45()" onmouseover="hoverVideo45()" data-group="video">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://svd-keyframe-interpolation.github.io/" style="vertical-align: inherit; font-size: 99%;">Generative Inbetweening: Adapting Image-to-Video Models for Keyframe Interpolation</a><br>
 		<div style="font-size: 75%">
 Xiaojuan Wang, Boyang Zhou, Brian Curless,<br>Ira Kemelmacher, <strong style="font-weight: 1000; text-shadow: 0.1px 0.1px;">Aleksander Holynski</strong>, Steve Seitz<br>
               ICLR 2025<br><br></div>
-              <a href="https://arxiv.org/pdf/2410.13832.pdf" style="font-size: 80%">PDF</a> / <a href="https://arxiv.org/abs/2410.13832" style="font-size: 80%">arXiv</a> </center>
+              <a href="https://arxiv.org/pdf/2408.15239" style="font-size: 80%">PDF</a> / <a href="https://arxiv.org/abs/2408.15239" style="font-size: 80%">arXiv</a> </center>
 </p>
               </td>
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/genbetween_boom.mp4" id="thevideo45" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/genbetween_boom.mp4" id="thevideo45" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -441,7 +713,7 @@ Xiaojuan Wang, Boyang Zhou, Brian Curless,<br>Ira Kemelmacher, <strong style="
 
 
 
-		  <tr  onmouseout="hideVideo47()" onmouseover="hoverVideo47()">
+		  <tr  onmouseout="hideVideo47()" onmouseover="hoverVideo47()" data-group="gen3d imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://sds-bridge.github.io/" style="vertical-align: inherit; font-size: 99%;">Rethinking Score Distillation as a Bridge
@@ -455,7 +727,7 @@ David McAllister, Songwei Ge, Jia-Bin Huang, David W. Jacobs,<br>Alexei A. Efros
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/sds_bridge_thumb.mp4" id="thevideo47" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/sds_bridge_thumb.mp4" id="thevideo47" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -474,7 +746,7 @@ David McAllister, Songwei Ge, Jia-Bin Huang, David W. Jacobs,<br>Alexei A. Efros
 
 
 
-		  <tr  onmouseout="small_diffmining()" onmouseover="big_diffmining()">
+		  <tr  onmouseout="small_diffmining()" onmouseover="big_diffmining()" data-group="imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://diff-mining.github.io/" style="vertical-align: inherit; font-size: 99%;">Diffusion Models as Data Mining Tools</a><br>
@@ -490,9 +762,9 @@ Ioannis Siglidis, <strong style="font-weight: 1000; text-shadow: 0.1px 0.1px;"
 		<div width="100%" style="vertical-align: middle" align="center">
                 <div class="one" width="100%">
                 <div class="fadeImage" id="diffmining" style="opacity: 0; width: 100%;">
-                <img class="img-animate" src="images/diffmining_thumb1.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
+                <img class="img-animate" data-src="images/diffmining_thumb1.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
                 </div>
-                <img class="img-animate" src="images/diffmining_thumb2.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+                <img class="img-animate" data-src="images/diffmining_thumb2.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
                 </div>
 </div>
               </td>
@@ -513,7 +785,7 @@ Ioannis Siglidis, <strong style="font-weight: 1000; text-shadow: 0.1px 0.1px;"
 
         </tr> 
 
-		  <tr  onmouseout="hideVideo44()" onmouseover="hoverVideo44()">
+		  <tr  onmouseout="hideVideo44()" onmouseover="hoverVideo44()" data-group="video">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://vidpanos.github.io/" style="vertical-align: inherit; font-size: 99%;">VidPanos: Generative Panoramic Videos from Casual Panning Videos</a><br>
@@ -526,7 +798,7 @@ Jingwei Ma, Erika Lu, Roni Paiss, Shiran Zada, <strong style="font-weigh
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/vidpanos_thumb.mp4" id="thevideo44" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/vidpanos_thumb.mp4" id="thevideo44" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -543,7 +815,7 @@ Jingwei Ma, Erika Lu, Roni Paiss, Shiran Zada, <strong style="font-weigh
         </tr> 
 
 
-		  <tr  onmouseout="hideVideo42()" onmouseover="hoverVideo42()">
+		  <tr  onmouseout="hideVideo42()" onmouseover="hoverVideo42()" data-group="rep gen3d">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://cat3d.github.io/" style="vertical-align: inherit; font-size: 100%;">CAT3D: Create Anything in 3D with Multi-View Diffusion Models</a><br>
@@ -556,7 +828,7 @@ Ruiqi Gao*, <strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Ale
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/cat3d_thumb.mp4" id="thevideo42" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/cat3d_thumb.mp4" id="thevideo42" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -573,7 +845,7 @@ Ruiqi Gao*, <strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Ale
         </tr> 
 
 
- <tr  onmouseout="hideVideo37()" onmouseover="hoverVideo37()">
+ <tr  onmouseout="hideVideo37()" onmouseover="hoverVideo37()" data-group="rep gen3d imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://dave.ml/layoutlearning/" style="vertical-align: inherit; font-size: 100%;">Disentangled 3D Scene Gen­eration with Layout Learning</a><br>
@@ -586,7 +858,7 @@ Dave Epstein, Ben Poole, Ben Mildenhall, Alexei Efros, <strong style="font-weigh
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/layout.mp4" id="thevideo37" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/layout.mp4" id="thevideo37" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -603,7 +875,7 @@ Dave Epstein, Ben Poole, Ben Mildenhall, Alexei Efros, <strong style="font-weigh
         </tr> 
 
 
-<tr  onmouseout="hideVideo30()" onmouseover="hoverVideo30()">
+<tr  onmouseout="hideVideo30()" onmouseover="hoverVideo30()" data-group="rep video">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://generative-dynamics.github.io/" style="vertical-align: inherit; font-size: 100%;">Generative Image Dynamics</a><br>
@@ -616,7 +888,7 @@ Dave Epstein, Ben Poole, Ben Mildenhall, Alexei Efros, <strong style="font-weigh
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/tree_pull.mp4" id="thevideo30" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/tree_pull.mp4" id="thevideo30" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -635,7 +907,7 @@ Dave Epstein, Ben Poole, Ben Mildenhall, Alexei Efros, <strong style="font-weigh
 		  
 
 
- <tr  onmouseout="hideVideo34()" onmouseover="hoverVideo34()">
+ <tr  onmouseout="hideVideo34()" onmouseover="hoverVideo34()" data-group="rep imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://readout-guidance.github.io" style="vertical-align: inherit; font-size: 100%;">Readout Guidance: Learning Control from Diffusion Features</a><br>
@@ -648,7 +920,7 @@ Grace Luo, Trevor Darrell, Oliver Wang, Dan B Goldman, <strong style="font-weigh
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/squirrel_out.mp4" id="thevideo34" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/squirrel_out.mp4" id="thevideo34" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -664,7 +936,7 @@ Grace Luo, Trevor Darrell, Oliver Wang, Dan B Goldman, <strong style="font-weigh
           </script>
         </tr> 
 
- <tr  onmouseout="hideVideo35()" onmouseover="hoverVideo35()">
+ <tr  onmouseout="hideVideo35()" onmouseover="hoverVideo35()" data-group="rep gen3d">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://reconfusion.github.io" style="vertical-align: inherit; font-size: 100%;">ReconFusion: 3D Reconstruction with Diffusion Priors</a><br>
@@ -677,7 +949,7 @@ Rundi Wu*, Ben Mildenhall*, Philipp Henzler, Keunhong Park, Ruiqi Gao, Daniel Wa
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/reconfusion.mp4" id="thevideo35" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/reconfusion.mp4" id="thevideo35" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -693,7 +965,7 @@ Rundi Wu*, Ben Mildenhall*, Philipp Henzler, Keunhong Park, Ruiqi Gao, Daniel Wa
           </script>
         </tr> 
 
-  <tr  onmouseout="hideVideo33()" onmouseover="hoverVideo33()">
+  <tr  onmouseout="hideVideo33()" onmouseover="hoverVideo33()" data-group="rep imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://powers-of-10.github.io" style="vertical-align: inherit; font-size: 100%;">Generative Powers of Ten</a><br>
@@ -706,7 +978,7 @@ Xiaojuan Wang, Janne Kontkanen, Brian Curless, Steve Seitz, Ira Kemelmacher, Ben
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/zoom_thumbnail.mp4" id="thevideo33" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/zoom_thumbnail.mp4" id="thevideo33" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -723,7 +995,7 @@ Xiaojuan Wang, Janne Kontkanen, Brian Curless, Steve Seitz, Ira Kemelmacher, Ben
         </tr> 
 
 
-<tr  onmouseout="hideVideo41()" onmouseover="hoverVideo41()">
+<tr  onmouseout="hideVideo41()" onmouseover="hoverVideo41()" data-group="video">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://vidim-interpolation.github.io/" style="vertical-align: inherit; font-size: 100%;">Video Interpolation with Diffusion Models</a><br>
@@ -736,7 +1008,7 @@ Siddhant Jain, Daniel Watson, Eric Tabellion, <strong style="font-weight: 1000; 
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/vidim.mp4" id="thevideo41" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/vidim.mp4" id="thevideo41" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -752,7 +1024,7 @@ Siddhant Jain, Daniel Watson, Eric Tabellion, <strong style="font-weight: 1000; 
           </script>
         </tr> 
 		  
- <tr  onmouseout="hideVideo36()" onmouseover="hoverVideo36()">
+ <tr  onmouseout="hideVideo36()" onmouseover="hoverVideo36()" data-group="gen3d">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://ethanweber.me/nerfiller/" style="vertical-align: inherit; font-size: 100%;">NeRFiller: Completing Scenes via Generative 3D Inpainting</a><br>
@@ -765,7 +1037,7 @@ Ethan Weber, <strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Al
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/nerfiller.mp4" id="thevideo36" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/nerfiller.mp4" id="thevideo36" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -791,20 +1063,52 @@ Ethan Weber, <strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Al
 	
 
 		  	  
- <tr  onmouseout="hideVideo40()" onmouseover="hoverVideo40()">
+ 	  <tr  onmouseout="smallinftex()" onmouseover="biginftex()" data-group="imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
-                <a href="" style="vertical-align: inherit; font-size: 100%;">ExtraNeRF: Visibility-Aware View Extrapolation of Neural Radiance Fields with Diffusion Models</a><br>
+                <a href="https://arxiv.org/pdf/2405.08210" style="vertical-align: inherit; font-size: 98%;">Infinite Texture: Text-guided High Resolution Diffusion Texture Synthesis</a><br>
+		<div style="font-size: 75%">
+Yifan Wang, <strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Aleksander Holynski</strong>, Brian Curless, Steve Seitz<br>
+              arXiv 2024<br><br></div>
+              <a href="https://arxiv.org/pdf/2405.08210" style="font-size: 80%">PDF</a> / <a href="https://arxiv.org/abs/2405.08210" style="font-size: 80%">arXiv</a> </center>
+</p>
+              </td>
+              <td width="33%" height="100%" align="left">
+		<div width="100%" style="vertical-align: middle" align="center">
+                <div class="one" width="100%">
+                <div class="fadeImage" id="inftex" style="opacity: 0; width: 100%;">
+                <img class="img-animate" data-src="images/inftex_b.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
+                </div>
+                <img class="img-animate" data-src="images/inftex_a.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+                </div>
+</div>
+              </td>
+
+          <script type="text/javascript">
+              function biginftex() {
+                document.getElementById('inftex').style.opacity = "1";
+              }
+              function smallinftex() {
+                document.getElementById('inftex').style.opacity = "0";
+              }
+              smallinftex()
+          </script>
+        </tr> 
+
+              <tr  onmouseout="hideVideo40()" onmouseover="hoverVideo40()" data-group="gen3d">
+              <td width="67%" align="right" style="vertical-align: middle;">
+                <p style="vertical-align: top;"><center>
+                <a href="https://shihmengli.github.io/extranerf-website/" style="vertical-align: inherit; font-size: 100%;">ExtraNeRF: Visibility-Aware View Extrapolation of Neural Radiance Fields with Diffusion Models</a><br>
 		<div style="font-size: 75%">
 Meng-Li Shih, Wei-Chiu Ma, Lorenzo Boyice, <strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Aleksander Holynski</strong>, Forrester Cole, Brian Curless, Janne Kontkanen<br>
-              CVPR 2024 (Coming soon) <br><br></div>
-              <a href="#" style="font-size: 80%">PDF</a> / <a href="#" style="font-size: 80%">arXiv</a> </center>
+              CVPR 2024 <br><br></div>
+              <a href="https://arxiv.org/pdf/2406.06133" style="font-size: 80%">PDF</a> / <a href="https://arxiv.org/abs/2406.06133" style="font-size: 80%">arXiv</a> / <a href="https://shihmengli.github.io/extranerf-website/" style="font-size: 80%">Webpage</a> </center>
 </p>
               </td>
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <img disableRemotePlayback src="https://holynski.org/images/comingsoon.jpeg" id="thevideo40" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="images/extranerf.mp4" id="thevideo40" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -820,7 +1124,7 @@ Meng-Li Shih, Wei-Chiu Ma, Lorenzo Boyice, <strong style="font-weight: 1000;    
           </script>
         </tr> 
 
-<tr  onmouseout="hideVideo31()" onmouseover="hoverVideo31()">
+<tr  onmouseout="hideVideo31()" onmouseover="hoverVideo31()" data-group="imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://realfill.github.io/" style="vertical-align: inherit; font-size: 100%;">RealFill: Reference-Driven Generation for Authentic Image Completion</a><br>
@@ -834,7 +1138,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/realfill.mp4" id="thevideo31" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/realfill.mp4" id="thevideo31" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -851,7 +1155,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
         </tr> 
 
 		  
-  <tr  onmouseout="hideVideo32()" onmouseover="hoverVideo32()">
+  <tr  onmouseout="hideVideo32()" onmouseover="hoverVideo32()" data-group="imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://arxiv.org/abs/2310.07204" style="vertical-align: inherit; font-size: 100%;">State of the Art on Diffusion Models for Visual Computing</a><br>
@@ -864,7 +1168,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/star_thumbnail.mp4" id="thevideo32" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/star_thumbnail.mp4" id="thevideo32" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -882,7 +1186,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
 
 		  
 		  
-	<tr  onmouseout="hideVideo29()" onmouseover="hoverVideo29()">
+	<tr  onmouseout="hideVideo29()" onmouseover="hoverVideo29()" data-group="rep recon video">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://omnimotion.github.io/" style="vertical-align: inherit; font-size: 100%;">Tracking Everything Everywhere All at Once</a><br>
@@ -895,7 +1199,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/butterfly.mp4" id="thevideo29" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/butterfly.mp4" id="thevideo29" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -910,7 +1214,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
               }
           </script>
         </tr> 
-	 <tr  onmouseout="small_raccoon()" onmouseover="big_raccoon()">
+	 <tr  onmouseout="small_raccoon()" onmouseover="big_raccoon()" data-group="rep imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://dave.ml/selfguidance" style="vertical-align: inherit; font-size: 100%;">Diffusion Self-Guidance for Controllable Image Generation</a><br>
@@ -924,9 +1228,9 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
 		<div width="100%" style="vertical-align: middle" align="center">
                 <div class="one" width="100%">
                 <div class="fadeImage" id="raccoon" style="opacity: 0; width: 100%;">
-                <img class="img-animate" src="images/raccoon_big.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
+                <img class="img-animate" data-src="images/raccoon_big.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
                 </div>
-                <img class="img-animate" src="images/raccoon_small.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+                <img class="img-animate" data-src="images/raccoon_small.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
                 </div>
 </div>
               </td>
@@ -945,7 +1249,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
         
           </script>
         </tr>            	  
-            <tr  onmouseout="no_features()" onmouseover="features()">
+            <tr  onmouseout="no_features()" onmouseover="features()" data-group="imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://diffusion-hyperfeatures.github.io" style="vertical-align: inherit; font-size: 100%;">Diffusion Hyperfeatures: Searching Through Time and Space for Semantic Correspondence</a><br>
@@ -959,9 +1263,9 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
 		<div width="100%" style="vertical-align: middle" align="center">
                 <div class="one" width="100%">
                 <div class="fadeImage" id="feature_map" style="opacity: 0; width: 100%;">
-                <img class="img-animate" src="images/cat_features.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
+                <img class="img-animate" data-src="images/cat_features.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
                 </div>
-                <img class="img-animate" src="images/cat.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+                <img class="img-animate" data-src="images/cat.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
                 </div>
 </div>
               </td>
@@ -980,7 +1284,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
         
           </script>
         </tr> 
-            <tr  onmouseout="hideVideo2()" onmouseover="hoverVideo2()">
+            <tr  onmouseout="hideVideo2()" onmouseover="hoverVideo2()" data-group="rep gen3d imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://instruct-nerf2nerf.github.io" style="vertical-align: inherit; font-size: 100%;">Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions</a><br>
@@ -993,7 +1297,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/face_small.mp4" id="thevideo4" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/face_small.mp4" id="thevideo4" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -1009,7 +1313,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
           </script>
         </tr> 
 		  
-		   <tr  onmouseout="static_sample8()" onmouseover="moving_sample8()">
+		   <tr  onmouseout="static_sample8()" onmouseover="moving_sample8()" data-group="recon">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://ethanweber.me/nerfbusters/" style="vertical-align: inherit; font-size: 100%;">Nerfbusters: Removing Ghostly Artifacts from Casually Captured NeRFs</a><br></center>
@@ -1025,9 +1329,9 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
               <td width="24.75%" height="100%" align="center">
                 <div class="one" width="75%" align="center" style="align: center; width: 75%; height: auto">
                 <div class="fadeImage" width="100%" id="sample8" align="center" style="align: center; opacity: 0;">
-                <video disableRemotePlayback src="https://holynski.org/images/nerfbusters.mp4" id="thevideo8" width="100%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/nerfbusters.mp4" id="thevideo8" width="100%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
                 </div>
-                <img class="img-animate" src="images/floaters.jpg" width="100%" align="center" alt="" style="vertical-align: middle;">
+                <img class="img-animate" data-src="images/floaters.jpg" width="100%" align="center" alt="" style="vertical-align: middle;">
               </div>
               </td>
           <script type="text/javascript">
@@ -1047,7 +1351,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
 
             </tr>
 		  
-		  <tr  onmouseout="hideVideo3()" onmouseover="hoverVideo3()">
+		  <tr  onmouseout="hideVideo3()" onmouseover="hoverVideo3()" data-group="video">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://grail.cs.washington.edu/projects/dreampose/" style="vertical-align: inherit; font-size: 100%;">DreamPose: Fashion Image-to-Video Synthesis via Stable Diffusion</a><br>
@@ -1060,7 +1364,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://holynski.org/images/dreampose_boomerang2.mp4" id="thevideo5" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://holynski.org/images/dreampose_boomerang2.mp4" id="thevideo5" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -1077,7 +1381,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
         </tr> 
 		  
 		  
-            <tr  onmouseout="before_edit()" onmouseover="after_edit()">
+            <tr  onmouseout="before_edit()" onmouseover="after_edit()" data-group="rep imagegen">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://timothybrooks.com/instruct-pix2pix" style="vertical-align: inherit; font-size: 100%;">InstructPix2Pix: Learning to Follow Image Editing Instructions</a><br>
@@ -1091,9 +1395,9 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
 		<div width="100%" style="vertical-align: middle" align="center">
                 <div class="one" width="100%">
                 <div class="fadeImage" id="edited" style="opacity: 0;">
-                <img class="img-animate" src="images/beard~2.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
+                <img class="img-animate" data-src="images/beard~2.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
                 </div>
-                <img class="img-animate" src="images/in~2.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+                <img class="img-animate" data-src="images/in~2.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
                 </div>
 </div>
               </td>
@@ -1114,7 +1418,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
         </tr> 
 		
 		  
-            <tr  onmouseout="hideVideo1()" onmouseover="hoverVideo1()">
+            <tr  onmouseout="hideVideo1()" onmouseover="hoverVideo1()" data-group="recon">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://grail.cs.washington.edu/projects/sunstage" style="vertical-align: inherit; font-size: 100%;">SunStage: Portrait Reconstruction and Relighting using the Sun as a Light Stage</a><br>
@@ -1127,7 +1431,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="https://grail.cs.washington.edu/projects/sunstage/static/videos/decomp/render.mp4" id="thevideo2" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="https://grail.cs.washington.edu/projects/sunstage/static/videos/decomp/render.mp4" id="thevideo2" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -1153,7 +1457,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
           </script>
         </tr> 
 
-            <tr  onmouseout="hideVideo()" onmouseover="hoverVideo()">
+            <tr  onmouseout="hideVideo()" onmouseover="hoverVideo()" data-group="rep video">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://eulerian.cs.washington.edu" style="vertical-align: inherit; font-size: 100%;">Animating Pictures with Eulerian Motion Fields</a><br>
@@ -1167,7 +1471,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
               <td width="33%" height="100%" align="left">
 		<div width="100%" style="vertical-align: middle; border-spacing: 0px; position:relative" align="center">
                 <div class="fi2" id="sample09191" width="100%" style="opacity: 1; padding:0; font-size:0; border-spacing: 0px;">
-                <video disableRemotePlayback src="images/waterfall_moving.mp4" id="thevideo" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
+                <video disableRemotePlayback data-src="images/waterfall_moving.mp4" id="thevideo" width="75%" align="center" style="vertical-align: right; align: right;" alt="" muted playsinline loop>
 </div>
 </div>
               </td>
@@ -1192,7 +1496,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
         
           </script>
         </tr> 
-            <tr  onmouseout="static_sample4()" onmouseover="moving_sample4()">
+            <tr  onmouseout="static_sample4()" onmouseover="moving_sample4()" data-group="rep recon">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://grail.cs.washington.edu/projects/reducing_drift/index.html" style="vertical-align: inherit; font-size: 100%;">Reducing Drift in Structure From Motion Using Extended Features</a><br>
@@ -1206,9 +1510,9 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
 		<div width="100%" style="vertical-align: middle" align="center">
                 <div class="one" width="100%">
                 <div class="fadeImage" id="sample4" style="opacity: 0;">
-                <img class="img-animate" src="images/no-drift.png" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
+                <img class="img-animate" data-src="images/no-drift.png" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
                 </div>
-                <img class="img-animate" src="images/drift.png" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+                <img class="img-animate" data-src="images/drift.png" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
                 </div>
 </div>
               </td>
@@ -1227,7 +1531,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
         
           </script>
         </tr> 
-            <tr  onmouseout="static_sample3()" onmouseover="moving_sample3()">
+            <tr  onmouseout="static_sample3()" onmouseover="moving_sample3()" data-group="rep recon">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://grail.cs.washington.edu/projects/bagofchips/" style="vertical-align: inherit; font-size: 100%;">Seeing the World in a Bag of Chips</a><br>
@@ -1243,9 +1547,9 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
 		<div width="100%" style="vertical-align: middle" align="center">
                 <div class="one" width="100%">
                 <div class="fadeImage" id="sample3" style="opacity: 0;">
-                <img class="img-animate" src="images/silhouette.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
+                <img class="img-animate" data-src="images/silhouette.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
                 </div>
-                <img class="img-animate" src="images/chips.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+                <img class="img-animate" data-src="images/chips.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
                 </div>
 </div>
               </td>
@@ -1264,7 +1568,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
         
           </script>
             </tr>
-            <tr  onmouseout="static_sample2()" onmouseover="moving_sample2()">
+            <tr  onmouseout="static_sample2()" onmouseover="moving_sample2()" data-group="rep recon">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://grail.cs.washington.edu/projects/occlusion/index.html" style="vertical-align: inherit; font-size: 100%;">Fast Depth Densification for Occlusion-aware Augmented Reality</a><br></center>
@@ -1280,9 +1584,9 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
               <td width="24.75%" height="100%" align="center">
                 <div class="one" width="75%" align="center" style="align: center; width: 75%; height: auto">
                 <div class="fadeImage" width="100%" id="sample2" align="center" style="align: center; opacity: 0;">
-                <img class="img-animate" src="images/hearts.gif" width="100%" align="center" style="align: center; vertical-align: middle;" alt="">
+                <img class="img-animate" data-src="images/hearts.gif" width="100%" align="center" style="align: center; vertical-align: middle;" alt="">
                 </div>
-                <img class="img-animate" src="images/static_hearts.gif" width="100%" align="center" alt="" style="vertical-align: middle;">
+                <img class="img-animate" data-src="images/static_hearts.gif" width="100%" align="center" alt="" style="vertical-align: middle;">
               </div>
               </td>
           <script type="text/javascript">
@@ -1300,7 +1604,7 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
           </script>
 
             </tr>
-            <tr  onmouseout="static_sample1()" onmouseover="moving_sample1()">
+            <tr  onmouseout="static_sample1()" onmouseover="moving_sample1()" data-group="recon">
               <td width="67%" align="right" style="vertical-align: middle;">
                 <p style="vertical-align: top;"><center>
                 <a href="https://arxiv.org/abs/1906.03539" style="vertical-align: inherit; font-size: 100%;">Structure from Motion for Panorama-Style Videos</a><br></center>
@@ -1316,10 +1620,10 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
 		<div width="100%" style="vertical-align: middle" align="center">
                 <div class="one" width="100%">
                 <div class="fadeImage" id="sampleImage" style="opacity: 0;">
-                <img class="img-animate" src="images/pano_sfm2.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
+                <img class="img-animate" data-src="images/pano_sfm2.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
                 </div>
 
-                <img class="img-animate" src="images/pano_sfm.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+                <img class="img-animate" data-src="images/pano_sfm.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
                 </div>
 </div>
           <script type="text/javascript">
@@ -1336,6 +1640,38 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
               </td>
 
             </tr>
+
+	  <tr  onmouseout="smallholo()" onmouseover="bigholo()" data-group="recon">
+              <td width="67%" align="right" style="vertical-align: middle;">
+                <p style="vertical-align: top;"><center>
+                <a href="https://holoscanner.github.io/" style="vertical-align: inherit; font-size: 100%;">Holoscanner: Gamified 3D Scanning</a><br>
+		<div style="font-size: 75%">
+<strong style="font-weight: 1000;     text-shadow: 0.1px 0.1px;">Aleksander Holynski</strong>, and collaborators at the University of Washington<br>
+              2016<br><br></div>
+              <a href="https://holoscanner.github.io/" style="font-size: 80%">Webpage</a> / <a href="https://www.youtube.com/watch?v=IYQMVZw5AAQ" style="font-size: 80%">Video</a> </center>
+</p>
+              </td>
+              <td width="33%" height="100%" align="left">
+		<div width="100%" style="vertical-align: middle" align="center">
+                <div class="one" width="100%">
+                <div class="fadeImage" id="holo" style="opacity: 0; width: 100%;">
+                <img class="img-animate" data-src="images/holoscanner_zoom.jpg" width="75%" height="100%" align="center" style="vertical-align: middle;" alt="">
+                </div>
+                <img class="img-animate" data-src="images/holoscanner.jpg" width="75%" height="100%" align="center" alt="" style="vertical-align: middle;">
+                </div>
+</div>
+              </td>
+
+          <script type="text/javascript">
+              function bigholo() {
+                document.getElementById('holo').style.opacity = "1";
+              }
+              function smallholo() {
+                document.getElementById('holo').style.opacity = "0";
+              }
+              smallholo()
+          </script>
+        </tr> 
 
           </table>
           <div align="center">
@@ -1354,5 +1690,36 @@ Bharath Hariharan, Yael Pritch, Neal Wadhwa, Kfir Aberman, Michael Rubinstein<br
         </section>
       </section>
 
+
+    <script type="text/javascript">
+      function loadRowMedia(tr) {
+        var m = tr.querySelectorAll('[data-src]');
+        for (var k = 0; k < m.length; k++) {
+          m[k].src = m[k].getAttribute('data-src');
+          m[k].removeAttribute('data-src');
+        }
+      }
+      function showGroup(g) {
+        var rows = document.querySelectorAll('#projects tr[data-group]');
+        for (var i = 0; i < rows.length; i++) {
+          var groups = ' ' + rows[i].getAttribute('data-group') + ' ';
+          var show = (g == 'all') ? groups.indexOf(' students ') < 0
+                                  : groups.indexOf(' ' + g + ' ') >= 0;
+          rows[i].style.display = show ? '' : 'none';
+          if (show) { loadRowMedia(rows[i]); }
+        }
+        var links = document.querySelectorAll('a.filt');
+        for (var j = 0; j < links.length; j++) {
+          if (links[j].getAttribute('data-g') == g) { links[j].classList.add('active'); }
+          else { links[j].classList.remove('active'); }
+        }
+        if (window.history && history.replaceState) { history.replaceState(null, '', '#' + g); }
+      }
+      (function () {
+        var g = (location.hash || '#rep').substring(1);
+        if (!document.querySelector('a.filt[data-g="' + g + '"]')) { g = 'rep'; }
+        showGroup(g);
+      })();
+    </script>
   </body>
 </html>
